@@ -2,6 +2,8 @@ module github.com/Yostardev/oapi-sdk-go/v3
 
 go 1.13
 
+replace github.com/larksuite/oapi-sdk-go/v3 => github.com/Yostardev/oapi-sdk-go/v3 v3.0.1
+
 //
 //replace (
 //	github.com/larksuite/oapi-sdk-go/v3/core => ./core
@@ -35,3 +37,5 @@ go 1.13
 //	github.com/larksuite/oapi-sdk-go/v3/service/wiki => ./service/wiki
 //
 //)
+
+require github.com/larksuite/oapi-sdk-go/v3 v3.0.0-00010101000000-000000000000
